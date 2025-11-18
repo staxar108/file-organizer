@@ -35,14 +35,6 @@ Documents/document.pdf
 Vidéos/video.mp4
 Autres/random.exe
 
-# Personnalisation
-TYPES = {
-    "Images": [".png", ".jpg", ".jpeg", ".gif"],
-    "Vidéos": [".mp4", ".mkv", ".avi"],
-    "Documents": [".pdf", ".docx", ".txt"],
-    "Audio": [".mp3", ".wav"],
-    "Archives": [".zip", ".rar", ".7z"],
-}
 
 
 # Support
