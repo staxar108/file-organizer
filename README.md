@@ -1,27 +1,84 @@
-🗂️ File Organizer
-Organiseur automatique de fichiers – Python
-📘 Description
+# ==============================
+# 🗂️ File Organizer - Python
+# ==============================
 
-File Organizer est un script Python simple et efficace permettant d’organiser automatiquement les fichiers d’un dossier selon leur type.
-Il trie vos documents, images, vidéos, archives, musiques, etc., dans des sous-dossiers dédiés.
+# Description
+# Ce script organise automatiquement tous les fichiers d’un dossier
+# en créant des sous-dossiers par type (images, vidéos, documents, audio, archives, etc.)
 
-✨ Fonctionnalités
+# ==============================
+# Fonctionnalités
+# ==============================
+# - Analyse du dossier fourni
+# - Classement automatique selon l’extension
+# - Création automatique des sous-dossiers nécessaires
+# - Déplacement sécurisé des fichiers
+# - Catégories personnalisables
+# - Compatible Windows / Linux / macOS
 
-🔍 Analyse un dossier fourni par l’utilisateur
+# ==============================
+# Installation
+# ==============================
+# Prérequis : Python 3.x
+# Cloner le dépôt :
+#   git clone https://github.com/votre-nom/file-organizer.git
+#   cd file-organizer
 
-🗃️ Classe les fichiers par type (image, vidéo, document…)
+# ==============================
+# Utilisation
+# ==============================
+# Lancer le script :
+#   python file_organizer.py
+# Le programme demandera :
+#   "Veuillez entrer le chemin du dossier à organiser :"
+# Entrer le chemin complet et laisser le script organiser les fichiers.
 
-📁 Crée automatiquement les sous-dossiers nécessaires
+# ==============================
+# Exemple d’organisation
+# ==============================
+# Avant :
+#   photo.png
+#   musique.mp3
+#   archive.zip
+#   document.pdf
+#   video.mp4
+#   random.exe
+#
+# Après :
+#   Images/photo.png
+#   Audio/musique.mp3
+#   Archives/archive.zip
+#   Documents/document.pdf
+#   Vidéos/video.mp4
+#   Autres/random.exe
 
-📦 Déplace chaque fichier dans la bonne catégorie
+# ==============================
+# Personnalisation
+# ==============================
+TYPES = {
+    "Images": [".png", ".jpg", ".jpeg", ".gif"],
+    "Vidéos": [".mp4", ".mkv", ".avi"],
+    "Documents": [".pdf", ".docx", ".txt"],
+    "Audio": [".mp3", ".wav"],
+    "Archives": [".zip", ".rar", ".7z"],
+}
 
-🧩 Possibilité de personnaliser les types et extensions dans le code
+# ==============================
+# Erreurs courantes
+# ==============================
+# RuntimeError: input(): lost sys.stdin
+# -> Se produit si le script est lancé sans terminal
+# -> Solution : lancer via CMD / PowerShell / Terminal
 
-🧹 Laisse le dossier parfaitement rangé en quelques secondes
+# ==============================
+# Licence
+# ==============================
+# MIT License
+# Copyright (c) 2025 [Votre Nom]
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files...
 
-📥 Installation
-1️⃣ Prérequis
-
-Python 3.x installé sur votre machine
-
-2️⃣ Clone du dépôt
+# ==============================
+# Support
+# ==============================
+# Si ce projet vous aide, laissez une étoile ⭐ sur GitHub
