@@ -10,7 +10,7 @@ into subfolders based on their type: images, videos, documents, audio, archives,
 - Automatic sorting by file extension
 - Automatic creation of subfolders
 - Safe file moving
-- Categories can be modified in the code
+
 
 # Usage
 Run the executable.
