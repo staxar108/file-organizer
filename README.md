@@ -1,4 +1,43 @@
 # File Organizer
+Automatically organizes files in a folder into subfolders by type.
+
+# Description
+This script takes the path of a folder and sorts all the files it contains
+into subfolders based on their type: images, videos, documents, audio, archives, etc.
+
+# Features
+- Scans all files in a given folder
+- Automatic sorting by file extension
+- Automatic creation of subfolders
+- Safe file moving
+- Categories can be modified in the code
+
+# Usage
+Run the executable.
+Then, enter the full path of the folder to organize when prompted.
+The script will automatically organize everything.
+
+# Example
+Before:
+photo.png
+music.mp3
+archive.zip
+document.pdf
+video.mp4
+random.exe
+
+After:
+Images/photo.png
+Audio/music.mp3
+Archives/archive.zip
+Documents/document.pdf
+Videos/video.mp4
+Others/random.exe
+
+# Support
+If this project helps you, leave a ⭐ on GitHub
+
+# File Organizer
 Organise automatiquement les fichiers d'un dossier en sous-dossiers par type.
 
 # Description
